@@ -98,7 +98,7 @@ export const App = () => {
 
       <ul>
         {visibleItems.map(item => (
-          <li data-cy="Good" key={crypto.randomUUID()}>
+          <li data-cy="Good" key={item}>
             {item}
           </li>
         ))}
